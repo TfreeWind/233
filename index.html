@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FreeWind's website</title>
     <style>
+      .hello {
+        color: red;
+      }
       .zy {
         color: black;
         margin: auto;
@@ -14,17 +17,21 @@
         background-image: url(bj.jfif);
         background-size: 100% 100%;
         background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
       }
       div {
         border: 3px solid black;
-        margin: 50px;
+        margin: 30px;
         padding: 20px;
       }
     </style>
   </head>
-  <body style="text-align: center; font-size: 30px; border: 5px soild black" ;>
+  <body style="text-align: center; font-size: 20px; border: 5px soild black" ;>
     <div>
-        <h1><b>Hello!</b></h1>
+      <h1 class="hello"><b>Hello!</b></h1>
       <p class="zy">
         <b>Welcome to <br />this website</b>
       </p>
